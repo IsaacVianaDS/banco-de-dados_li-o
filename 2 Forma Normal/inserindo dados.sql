@@ -74,6 +74,8 @@ INSERT INTO LIVROS (COD_LIVRO, VALOR, ANO_PUBLICACAO, CATEGORIA, TITULO, ISBN, C
 ('LVR019', 20.30, 2014, 'Suspense', 'O Iluminado', 9788599296135,'AUT005', 'Stephen King','Stephen.King@exemplo.com', 'ED1010', '(84) 1111-5555', 'contato10@exemplo.com', 'Lucas Santos', 44),
 ('LVR020', 29.50, 2013, 'Aventura', 'Harry Potter e o Prisioneiro de Azkaban', 9788532522904,'AUT003', 'J.K. Rowling', 'J.K.Rowling@exemplo.com', 'ED1003', '(98) 7777-5555', 'contato3@exemplo.com', 'Pedro Souza', 45);
 
+
+-- Inserção dos pedidos (corrigida)
 INSERT INTO PEDIDOS (COD_PEDIDO, COD_CLIENTE, DATA, VALOR_PEDIDO) VALUES
 ('PED001', 'CLT001', '2023-07-01', 180.98),
 ('PED002', 'CLT002', '2023-07-02', 71.00),
@@ -148,3 +150,6 @@ INSERT INTO COLABORADORES (COD_COLAB, NOME, DEPARTAMENTO, CARGO, SALARIO_BASE,DE
 ('CLB004', 'Ana Santos', 'RH', 'Analista de RH', 3800.00,'Carlos Antonio'),
 ('CLB005', 'Carlos Lima', 'RH', 'Gerente de RH', 5500.00,'Alberto Lima'),
 ('CLB006', 'Antonio José', 'Vendas', 'Vendedor', 3500.00,'Maria Joana');
+
+
+
